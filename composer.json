@@ -1,0 +1,19 @@
+{
+    "name": "academy/endtoend-test",
+    "description": "E2E test plugin",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "extra": {
+        "shopware-plugin-class": "AcademyE2ETest\\AcademyE2ETest",
+        "label": {
+            "de-DE": "E2E test plugin",
+            "en-GB": "E2E test plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AcademyE2ETest\\": "src/"
+        }
+    }
+}

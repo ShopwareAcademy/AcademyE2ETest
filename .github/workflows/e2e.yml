@@ -1,0 +1,16 @@
+name: E2E test
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * *'
+jobs:
+  e2etest:
+    uses: shopware/github-actions/.github/workflows/cypress.yml@main
+    with:
+      extensionName: ${{ github.event.repository.name }}
+      e2ePath: src/Resources/app/dev/test/e2e
+      shopwareVersion: trunk

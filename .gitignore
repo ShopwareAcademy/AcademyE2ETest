@@ -1,0 +1,4 @@
+node_modules/
+.idea
+!src/Resources/app/dev/test/e2e/cypress/screenshots/.gitkeep
+src/Resources/app/dev/test/e2e/cypress/screenshots/*.js
