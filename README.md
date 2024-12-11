@@ -1,4 +1,4 @@
-![Workflow Status](https://github.com/ShopwareAcademy/AcademyE2ETest/actions/workflows/main.yml/badge.svg)
+![Workflow Status](https://github.com/ShopwareAcademy/AcademyE2ETest/actions/workflows/e2e.yml/badge.svg)
 
 # AcademyE2ETest
 
