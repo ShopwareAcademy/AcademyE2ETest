@@ -1,3 +1,5 @@
+![Workflow Status](https://github.com/ShopwareAcademy/AcademyE2ETest/actions/workflows/main.yml/badge.svg)
+
 # AcademyE2ETest
 
 A plugin which shows how to write a simple cypress e2e tests for Shopware 6
