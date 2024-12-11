@@ -13,4 +13,5 @@ jobs:
     with:
       extensionName: ${{ github.event.repository.name }}
       e2ePath: src/Resources/app/dev/test/e2e
+      e2eTestFramework: cypress
       shopwareVersion: trunk
